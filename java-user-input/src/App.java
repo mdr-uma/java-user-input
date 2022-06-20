@@ -4,13 +4,22 @@ import java.util.Scanner;
 
 public class App {
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
+
+//		input type string		
+//		System.out.println("Enter a text line: ");
 		
-		System.out.println("Enter a text line: ");
+//		String text = input.nextLine();
 		
-		String text = input.nextLine();
+//		System.out.println("Your line is: " + text);
 		
-		System.out.println("Your line is: " + text);
+//		input type integer
+		System.out.println("Enter a number: ");
+		
+		int num = input.nextInt();
+		
+		System.out.println("Your number is: " + num);
 	}
 
 }
