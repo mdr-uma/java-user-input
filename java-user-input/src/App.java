@@ -22,4 +22,5 @@ public class App {
 		System.out.println("Your number is: " + num);
 	}
 
+//		just like string and integer we could create a decimal and other different types of input as well with Scanner
 }
