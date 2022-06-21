@@ -7,14 +7,14 @@ public class App {
 		
 		Scanner input = new Scanner(System.in);
 
-//		input type string		
-//		System.out.println("Enter a text line: ");
+		/*input type string		
+		System.out.println("Enter a text line: ");
 		
-//		String text = input.nextLine();
+		String text = input.nextLine();
 		
-//		System.out.println("Your line is: " + text);
+		System.out.println("Your line is: " + text);
 		
-//		input type integer
+		input type integer */
 		System.out.println("Enter a number: ");
 		
 		int num = input.nextInt();
@@ -22,5 +22,5 @@ public class App {
 		System.out.println("Your number is: " + num);
 	}
 
-//		just like string and integer we could create a decimal and other different types of input as well with Scanner
+	//just like string and integer we could create a decimal and other different types of input as well with Scanner
 }
